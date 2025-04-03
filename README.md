@@ -32,7 +32,20 @@ npm run android
 yarn android
 ```
 
-### iOS
+## Another way
+```
+npm start
+```
+
+- and in another terminal
+```
+npx react-native run-android
+```
+### Make sure you have android studio perfectly installed 
+- Visit [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
+
+
+## iOS
 
 For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
