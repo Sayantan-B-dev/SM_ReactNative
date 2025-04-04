@@ -1,12 +1,12 @@
 /* eslint-disable eol-last */
 /* eslint-disable semi */
 import { View } from 'react-native'
-import InputText from './src/components/InputText'
+import ContactListScreen from './src//screens/Contact/ContactListScreen'
 
 const App = () => {
   return (
     <View>
-      <InputText />
+      <ContactListScreen />
     </View>
   )
 }
