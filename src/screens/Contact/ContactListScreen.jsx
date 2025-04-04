@@ -1,18 +1,21 @@
-import {View, Text, FlatList} from 'react-native';
+import { Text, FlatList} from 'react-native';
 import React from 'react';
 import {users} from './userContact';
 import ContactItem from '../../components/ContactItem';
+import { style } from './Style';
 
 const ContactListScreen = () => {
-  const renderItem = ({items}) => {
-    <ContactItem name={items.name} email={items.email} />;
-  };
+  const renderItem = ({item}) => (
+    <ContactItem name={item.name} email={item.email} />
+  );
   return (
-    <FlatList>
+    <FlatList
       data={users}
-      renderItems={renderItem}
+      renderItem={renderItem}
       keyExtractor={(item)=>item.id}
-    </FlatList>
+      ListHeaderComponent={<Text style={style.heading}>Contacts</Text>}
+      contentContainerStyle={style.list}
+    />
   );
 };
 
