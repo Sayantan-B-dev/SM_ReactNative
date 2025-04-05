@@ -41,6 +41,11 @@ npm start
 ```
 npx react-native run-android
 ```
+
+- to use dummy users API open another terminal
+```
+npx json-server users.json
+```
 ### Make sure you have android studio perfectly installed 
 - Visit [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
 
