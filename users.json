@@ -1,185 +1,175 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Paul Welch",
-        "email": "lucerostephen@burnett.net",
-        "phone": "015.501.7827x84579",
-        "address": "67307 Mary Junction\nEast Mariastad, MN 57846",
-        "username": "heathervargas",
-        "dob": "1972-05-17"
-      },
-      {
-        "id": 2,
-        "name": "Kristen Clements",
-        "email": "njimenez@black.com",
-        "phone": "(637)047-4619",
-        "address": "9465 Kelley Bypass Suite 412\nPort Marioside, ID 77535",
-        "username": "cathylopez",
-        "dob": "1992-03-22"
-      },
-      {
-        "id": 3,
-        "name": "Raymond Pierce",
-        "email": "russelljessica@golden.biz",
-        "phone": "042-213-9932",
-        "address": "902 Pamela Lights Suite 059\nNorth Diana, AL 24823",
-        "username": "kennedygray",
-        "dob": "1984-11-10"
-      },
-      {
-        "id": 4,
-        "name": "Amber Cooper",
-        "email": "ngarner@owens.com",
-        "phone": "+1-374-734-9935",
-        "address": "63934 Anna Circle Apt. 967\nLake Davidview, RI 97832",
-        "username": "erik86",
-        "dob": "1997-07-03"
-      },
-      {
-        "id": 5,
-        "name": "Marcus Hodge",
-        "email": "julieboyd@cabrera.net",
-        "phone": "(385) 429-4328",
-        "address": "72137 Swanson Valley Suite 726\nPort Jeffrey, SC 12836",
-        "username": "stevenjames",
-        "dob": "1989-09-26"
-      },
-      {
-        "id": 6,
-        "name": "Tanya Simmons",
-        "email": "robin75@stanton.com",
-        "phone": "623-836-1234",
-        "address": "7837 Jessica Branch Apt. 301\nNorth Sheilaland, IN 57384",
-        "username": "adrianfoster",
-        "dob": "1994-06-18"
-      },
-      {
-        "id": 7,
-        "name": "Brian Curry",
-        "email": "brittanyconway@hampton.net",
-        "phone": "1-985-034-7383",
-        "address": "1629 Hayes Plaza Suite 998\nKatiemouth, MA 53219",
-        "username": "lucasmendoza",
-        "dob": "1983-12-02"
-      },
-      {
-        "id": 8,
-        "name": "Jessica Wallace",
-        "email": "ashley93@perry.com",
-        "phone": "778.509.2041",
-        "address": "4300 Kim Corners Apt. 551\nWest Rebeccastad, AK 49765",
-        "username": "michaelkennedy",
-        "dob": "1996-01-08"
-      },
-      {
-        "id": 9,
-        "name": "Shawn Fuller",
-        "email": "aliciaclark@james.com",
-        "phone": "1-813-593-1286",
-        "address": "8478 Lauren Lake\nWest Michael, MS 92408",
-        "username": "danielle43",
-        "dob": "1987-10-14"
-      },
-      {
-        "id": 10,
-        "name": "Kaitlyn Jenkins",
-        "email": "michaelbarnes@boyer.com",
-        "phone": "847-023-7764",
-        "address": "53998 Theresa Circle Apt. 307\nLake Stephanie, LA 84873",
-        "username": "richardmoore",
-        "dob": "1993-02-24"
-      },
-      {
-        "id": 11,
-        "name": "Antonio Gonzales",
-        "email": "jennifermeadows@wilkins.org",
-        "phone": "892.308.7420",
-        "address": "5197 Jeffrey Place Apt. 890\nEast Ericburgh, TX 75024",
-        "username": "brandonwheeler",
-        "dob": "1981-08-12"
-      },
-      {
-        "id": 12,
-        "name": "Angela Davidson",
-        "email": "paulwilcox@fuller.org",
-        "phone": "1-303-580-1932",
-        "address": "1111 Ashley Lake Suite 407\nSouth Jeffrey, KY 73810",
-        "username": "christinalong",
-        "dob": "1986-04-04"
-      },
-      {
-        "id": 13,
-        "name": "Jeremy Hughes",
-        "email": "shanejackson@smith.com",
-        "phone": "923-984-2983",
-        "address": "3343 Douglas Court Apt. 582\nWest Stephenstad, VA 64918",
-        "username": "maria22",
-        "dob": "1990-05-21"
-      },
-      {
-        "id": 14,
-        "name": "Megan Harmon",
-        "email": "emily27@carroll.biz",
-        "phone": "(293) 839-1230",
-        "address": "1395 Angela Shores Apt. 614\nEast Jon, MO 34821",
-        "username": "alexanderscott",
-        "dob": "1999-09-02"
-      },
-      {
-        "id": 15,
-        "name": "Douglas James",
-        "email": "georgelopez@hill.biz",
-        "phone": "728-382-4823",
-        "address": "45898 Erin Vista\nNew Samantha, OH 23019",
-        "username": "victoriathomas",
-        "dob": "1985-03-30"
-      },
-      {
-        "id": 16,
-        "name": "Chelsea Burns",
-        "email": "mariarobinson@stevens.net",
-        "phone": "1-827-380-2937",
-        "address": "76361 John Field\nNorth Travis, OK 45691",
-        "username": "keithmurray",
-        "dob": "1991-11-11"
-      },
-      {
-        "id": 17,
-        "name": "Phillip Ryan",
-        "email": "heatherburke@stevens.com",
-        "phone": "1-954-888-4421",
-        "address": "3788 Jenkins Meadow Suite 400\nNorth Nicholasland, FL 39573",
-        "username": "timothy99",
-        "dob": "1988-07-27"
-      },
-      {
-        "id": 18,
-        "name": "Kelsey Newman",
-        "email": "alisonfowler@valdez.net",
-        "phone": "729.208.4987",
-        "address": "2080 Haynes Summit Suite 701\nWest Garretttown, AR 63589",
-        "username": "aaron57",
-        "dob": "1995-06-16"
-      },
-      {
-        "id": 19,
-        "name": "Mitchell Norris",
-        "email": "matthewlopez@cain.biz",
-        "phone": "(802) 392-4829",
-        "address": "90774 Cook Tunnel\nPort Veronica, AZ 32975",
-        "username": "rebeccaking",
-        "dob": "1980-10-06"
-      },
-      {
-        "id": 20,
-        "name": "Tammy Morris",
-        "email": "amberadams@cunningham.net",
-        "phone": "1-633-720-4839",
-        "address": "6366 Allison Wall\nSouth Kristine, WA 40718",
-        "username": "victor82",
-        "dob": "1998-12-25"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "2",
+      "name": "Kristen Clements",
+      "email": "njimenez@black.com",
+      "phone": "(637)047-4619",
+      "address": "9465 Kelley Bypass Suite 412\nPort Marioside, ID 77535",
+      "username": "cathylopez",
+      "dob": "1992-03-22"
+    },
+    {
+      "id": "3",
+      "name": "Raymond Pierce",
+      "email": "russelljessica@golden.biz",
+      "phone": "042-213-9932",
+      "address": "902 Pamela Lights Suite 059\nNorth Diana, AL 24823",
+      "username": "kennedygray",
+      "dob": "1984-11-10"
+    },
+    {
+      "id": "4",
+      "name": "Amber Cooper",
+      "email": "ngarner@owens.com",
+      "phone": "+1-374-734-9935",
+      "address": "63934 Anna Circle Apt. 967\nLake Davidview, RI 97832",
+      "username": "erik86",
+      "dob": "1997-07-03"
+    },
+    {
+      "id": "5",
+      "name": "Marcus Hodge",
+      "email": "julieboyd@cabrera.net",
+      "phone": "(385) 429-4328",
+      "address": "72137 Swanson Valley Suite 726\nPort Jeffrey, SC 12836",
+      "username": "stevenjames",
+      "dob": "1989-09-26"
+    },
+    {
+      "id": "7",
+      "name": "Brian Curry",
+      "email": "brittanyconway@hampton.net",
+      "phone": "1-985-034-7383",
+      "address": "1629 Hayes Plaza Suite 998\nKatiemouth, MA 53219",
+      "username": "lucasmendoza",
+      "dob": "1983-12-02"
+    },
+    {
+      "id": "8",
+      "name": "Jessica Wallace",
+      "email": "ashley93@perry.com",
+      "phone": "778.509.2041",
+      "address": "4300 Kim Corners Apt. 551\nWest Rebeccastad, AK 49765",
+      "username": "michaelkennedy",
+      "dob": "1996-01-08"
+    },
+    {
+      "id": "9",
+      "name": "Shawn Fuller",
+      "email": "aliciaclark@james.com",
+      "phone": "1-813-593-1286",
+      "address": "8478 Lauren Lake\nWest Michael, MS 92408",
+      "username": "danielle43",
+      "dob": "1987-10-14"
+    },
+    {
+      "id": "10",
+      "name": "Kaitlyn Jenkins",
+      "email": "michaelbarnes@boyer.com",
+      "phone": "847-023-7764",
+      "address": "53998 Theresa Circle Apt. 307\nLake Stephanie, LA 84873",
+      "username": "richardmoore",
+      "dob": "1993-02-24"
+    },
+    {
+      "id": "11",
+      "name": "Antonio Gonzales",
+      "email": "jennifermeadows@wilkins.org",
+      "phone": "892.308.7420",
+      "address": "5197 Jeffrey Place Apt. 890\nEast Ericburgh, TX 75024",
+      "username": "brandonwheeler",
+      "dob": "1981-08-12"
+    },
+    {
+      "id": "12",
+      "name": "Angela Davidson",
+      "email": "paulwilcox@fuller.org",
+      "phone": "1-303-580-1932",
+      "address": "1111 Ashley Lake Suite 407\nSouth Jeffrey, KY 73810",
+      "username": "christinalong",
+      "dob": "1986-04-04"
+    },
+    {
+      "id": "13",
+      "name": "Jeremy Hughes",
+      "email": "shanejackson@smith.com",
+      "phone": "923-984-2983",
+      "address": "3343 Douglas Court Apt. 582\nWest Stephenstad, VA 64918",
+      "username": "maria22",
+      "dob": "1990-05-21"
+    },
+    {
+      "id": "14",
+      "name": "Megan Harmon",
+      "email": "emily27@carroll.biz",
+      "phone": "(293) 839-1230",
+      "address": "1395 Angela Shores Apt. 614\nEast Jon, MO 34821",
+      "username": "alexanderscott",
+      "dob": "1999-09-02"
+    },
+    {
+      "id": "15",
+      "name": "Douglas James",
+      "email": "georgelopez@hill.biz",
+      "phone": "728-382-4823",
+      "address": "45898 Erin Vista\nNew Samantha, OH 23019",
+      "username": "victoriathomas",
+      "dob": "1985-03-30"
+    },
+    {
+      "id": "16",
+      "name": "Chelsea Burns",
+      "email": "mariarobinson@stevens.net",
+      "phone": "1-827-380-2937",
+      "address": "76361 John Field\nNorth Travis, OK 45691",
+      "username": "keithmurray",
+      "dob": "1991-11-11"
+    },
+    {
+      "id": "17",
+      "name": "Phillip Ryan",
+      "email": "heatherburke@stevens.com",
+      "phone": "1-954-888-4421",
+      "address": "3788 Jenkins Meadow Suite 400\nNorth Nicholasland, FL 39573",
+      "username": "timothy99",
+      "dob": "1988-07-27"
+    },
+    {
+      "id": "18",
+      "name": "Kelsey Newman",
+      "email": "alisonfowler@valdez.net",
+      "phone": "729.208.4987",
+      "address": "2080 Haynes Summit Suite 701\nWest Garretttown, AR 63589",
+      "username": "aaron57",
+      "dob": "1995-06-16"
+    },
+    {
+      "id": "19",
+      "name": "Mitchell Norris",
+      "email": "matthewlopez@cain.biz",
+      "phone": "(802) 392-4829",
+      "address": "90774 Cook Tunnel\nPort Veronica, AZ 32975",
+      "username": "rebeccaking",
+      "dob": "1980-10-06"
+    },
+    {
+      "id": "20",
+      "name": "Tammy Morris",
+      "email": "amberadams@cunningham.net",
+      "phone": "1-633-720-4839",
+      "address": "6366 Allison Wall\nSouth Kristine, WA 40718",
+      "username": "victor82",
+      "dob": "1998-12-25"
+    },
+    {
+      "id": "33",
+      "name": "SAyantan",
+      "email": "Sayan@gmail.com",
+      "phone": "9876543210",
+      "address": "Kolkata",
+      "username": "Astro",
+      "dob": "17-07-1999"
+    }
+  ]
+}
