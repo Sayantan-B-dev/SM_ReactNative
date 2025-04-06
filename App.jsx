@@ -1,11 +1,11 @@
 /* eslint-disable react-native/no-inline-styles */
 import {View} from 'react-native';
-import DELETE_API from './src/components/DELETE_API';
+import GET_API_LIST from './src/components/GET_API_LIST';
 
 const App = () => {
   return (
     <View  style={{flex: 1,borderTopWidth:25,borderColor:'black'}}>
-      <DELETE_API/>
+      <GET_API_LIST/>
     </View>
   );
 };
