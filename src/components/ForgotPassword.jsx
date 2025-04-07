@@ -1,30 +1,24 @@
 /* eslint-disable react-native/no-inline-styles */
 import {View, Text, TextInput, TouchableOpacity, Alert} from 'react-native';
 import React, {useState} from 'react';
-import {loginUser} from '../services/auth'; // Adjust the path as needed
+import {resetPassword} from '../services/auth'; // Adjust the path as needed
 
-const Login = ({navigation}) => {
+const ForgotPassword = ({navigation}) => {
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
 
-  const handleLogin = async () => {
-    if (!email || !password) {
-      Alert.alert('Error', 'Please fill in all fields');
+  const handleResetPassword = async () => {
+    if (!email) {
+      Alert.alert('Error', 'Please enter your email address');
       return;
     }
     try {
-      // Call the login function from your auth service
-      const { emailverified} = await loginUser(email, password);
-      if (!emailverified) {
-        Alert.alert(
-          'Email Verification Required',
-          'Please verify your email before logging in.',
-        );
-        return;
-      }
-      Alert.alert('Success', 'Logged in successfully!');
+      // Call the resetPassword function from your auth service
+      await resetPassword(email);
+      Alert.alert(
+        'Success',
+        'A password reset link has been sent to your email address.',
+      );
       setEmail('');
-      setPassword('');
     } catch (error) {
       Alert.alert('Error', error.message);
     }
@@ -32,7 +26,7 @@ const Login = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Log In</Text>
+      <Text style={styles.heading}>Reset Password</Text>
       <View style={styles.form}>
         <Text style={styles.label}>Email</Text>
         <TextInput
@@ -43,25 +37,14 @@ const Login = ({navigation}) => {
           keyboardType="email-address"
           autoCapitalize="none"
         />
-        <Text style={styles.label}>Password</Text>
-        <TextInput
-          style={styles.input}
-          placeholder="Enter your password"
-          value={password}
-          onChangeText={setPassword}
-          secureTextEntry={true}
-        />
-        <TouchableOpacity style={styles.button} onPress={handleLogin}>
-          <Text style={styles.buttonText}>Log In</Text>
+        <TouchableOpacity style={styles.button} onPress={handleResetPassword}>
+          <Text style={styles.buttonText}>Send Reset Link</Text>
         </TouchableOpacity>
       </View>
-      <TouchableOpacity style={{marginTop: 20}} onPress={() => navigation.navigate('ForgotPassword')}>
-        <Text style={{color: 'white', marginTop: 20}}>
-          Forgot Password?</Text>
-      </TouchableOpacity>
-      <TouchableOpacity style={{marginTop: 20}} onPress={() => navigation.navigate('Register')}>
-        <Text style={{color: 'white', marginTop: 20}}>
-          Don't have an account?</Text>
+      <TouchableOpacity
+        style={{marginTop: 20}}
+        onPress={() => navigation.navigate('Login')}>
+        <Text style={{color: 'white', marginTop: 20}}>Log in</Text>
       </TouchableOpacity>
     </View>
   );
@@ -118,4 +101,4 @@ const styles = {
   },
 };
 
-export default Login;
+export default ForgotPassword;

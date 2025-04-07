@@ -1,17 +1,69 @@
-import {View} from 'react-native';
+import {View, Text} from 'react-native';
 import React from 'react';
-import MyLogin from './src/components/Mylogin';
 
-import './global.css'; // Import global styles
 const App = () => {
   return (
-    <View  className="flex-1">
-      <MyLogin />
+    <View>
+      <Text>App</Text>
     </View>
   );
 };
 
 export default App;
+//
+//
+//
+//
+//
+//
+//
+//
+
+//login,register,forgot password
+// import React from 'react';
+// import ForgotPassword from './src/components/ForgotPassword';
+// import Register from './src/components/Register'; // Import the Register component
+// import Login from './src/components/Login'; // Import the Login component
+// import {NavigationContainer} from '@react-navigation/native';
+// import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+// const Stack = createNativeStackNavigator();
+
+// const App = () => {
+//   return (
+//     <NavigationContainer>
+//       <Stack.Navigator>
+//         <Stack.Screen
+//           name="Login"
+//           component={Login}
+//           options={{
+//             headerShown: false,
+//             animation: 'slide_from_right',
+//           }}
+//         />
+//         <Stack.Screen
+//           name="Register"
+//           component={Register}
+//           options={{
+//             headerShown: false,
+//             animation: 'slide_from_right',
+//           }}
+//         />
+//         <Stack.Screen
+//           name="ForgotPassword"
+//           component={ForgotPassword}
+//           options={{
+//             headerShown: false,
+//             animation: 'slide_from_right',
+//           }}
+//         />
+//       </Stack.Navigator>
+//     </NavigationContainer>
+//   );
+// };
+
+// export default App;
+
 //
 //
 //

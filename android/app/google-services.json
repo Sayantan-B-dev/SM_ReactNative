@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521390234968",
+    "project_id": "sayantan-d1ae3",
+    "storage_bucket": "sayantan-d1ae3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521390234968:android:3d2fa52ed494011875592d",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhDr4uTQwKKo2-GhynDFLgu_8ySzHQams"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
