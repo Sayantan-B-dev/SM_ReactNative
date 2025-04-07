@@ -14,6 +14,12 @@ import {
   updateUserData,
   deleteUserData,
 } from '../database/firestoreCRUD';
+// import {
+//   addUserData,
+//   getUserData,
+//   updateUserData,
+//   deleteUserData,
+// } from '../database/realtimeCRUD';
 // addUserData and getUserData are functions that interact with the Firestore database
 
 const UserCRUD = () => {

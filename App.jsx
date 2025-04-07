@@ -1,12 +1,12 @@
 /* eslint-disable react-native/no-inline-styles */
 import {View} from 'react-native';
 import React from 'react';
-import UserCRUD from './src/components/UserCRUD'; // Import the UserCRUD component
+import Grid from './src/components/Grid'; // Import the UserCRUD component
 
 const App = () => {
   return (
     <View style={{flex: 1, backgroundColor: '#121212'}}>
-      <UserCRUD />
+      <Grid/>
     </View>
   );
 };
