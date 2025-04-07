@@ -1,16 +1,16 @@
+import {View} from 'react-native';
+import React from 'react';
+import MyLogin from './src/components/Mylogin';
 
-
-
-import Counter from './src/components/Counter';
-import { Provider } from 'react-redux';
-import { store } from './src/redux/store/store';
+import './global.css'; // Import global styles
 const App = () => {
   return (
-    <Provider store={store}>
-            <Counter/>
-    </Provider>
+    <View  className="flex-1">
+      <MyLogin />
+    </View>
   );
 };
+
 export default App;
 //
 //
