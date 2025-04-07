@@ -1,16 +1,15 @@
-/* eslint-disable react-native/no-inline-styles */
-import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-const Home = ({ navigation }) => {
+import React from 'react';
+import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
+
+const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>Home</Text>
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Login')}
-      >
+        onPress={() => navigation.navigate('Login')}>
         <Text style={styles.buttonText}>Go to Login</Text>
       </TouchableOpacity>
     </View>
