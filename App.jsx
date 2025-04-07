@@ -1,10 +1,12 @@
-import {View, Text} from 'react-native';
+/* eslint-disable react-native/no-inline-styles */
+import {View} from 'react-native';
 import React from 'react';
+import UserCRUD from './src/components/UserCRUD'; // Import the UserCRUD component
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
+    <View style={{flex: 1, backgroundColor: '#121212'}}>
+      <UserCRUD />
     </View>
   );
 };
