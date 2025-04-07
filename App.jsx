@@ -1,12 +1,14 @@
-/* eslint-disable react-native/no-inline-styles */
-/* eslint-disable react-native/no-inline-styles */
-import {View} from 'react-native';
-import ImageComponentExample from './src/components/ImageComponentExample';
+
+
+
+import Counter from './src/components/Counter';
+import { Provider } from 'react-redux';
+import { store } from './src/redux/store/store';
 const App = () => {
   return (
-    <View  style={{flex: 1,borderTopWidth:25,borderColor:'black'}}>
-      <ImageComponentExample/>
-    </View>
+    <Provider store={store}>
+            <Counter/>
+    </Provider>
   );
 };
 export default App;
