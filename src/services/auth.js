@@ -3,13 +3,15 @@ import { getAuth, createUserWithEmailAndPassword, sendEmailVerification, signInW
 import { initializeApp } from 'firebase/app';
 
 // Firebase config (replace with your own Firebase config)
+import { API_KEY, AUTH_DOMAIN, PROJECT_ID, STORAGE_BUCKET, MESSAGING_SENDER_ID, APP_ID } from '@env';
+
 const firebaseConfig = {
-    apiKey: 'AIzaSyBhDr4uTQwKKo2-GhynDFLgu_8ySzHQams',
-    authDomain: 'sayantan-d1ae3.firebaseapp.com', // This was missing in the details you provided, it's usually in the format <project-id>.firebaseapp.com
-    projectId: 'sayantan-d1ae3',
-    storageBucket: 'sayantan-d1ae3.appspot.com', // Updated based on the storage bucket you provided
-    messagingSenderId: '521390234968',
-    appId: '1:521390234968:android:3d2fa52ed494011875592d', // Normally, you'd use this for an Android app, but you can get the appId for web in the Firebase console
+    apiKey: API_KEY,
+    authDomain: AUTH_DOMAIN,
+    projectId: PROJECT_ID,
+    storageBucket: STORAGE_BUCKET,
+    messagingSenderId: MESSAGING_SENDER_ID,
+    appId: APP_ID,
 };
 
 
